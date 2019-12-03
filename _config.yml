@@ -1,7 +1,17 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
+title: BLANDİFULL
+description: Battaniyeye, günlük yaşama dair .. 
+keywords: Modern, Blogging, Fun,Battaniye, Bebek, Yetişkin,TV
+author: Nisaseren Aksu
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+
+
+# Google Analytics
+google_analytics: #UA-152797941-1
+
+jekyll-mentions:
+base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
