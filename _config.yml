@@ -11,6 +11,14 @@ permalink:    /:title/
 disqus_shortname:   eyyupalkis
 
 
+gems:
+- jekyll-mentions
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-seo-tag
+- jekyll-sitemap
+
 # Google Analytics
 google_analytics: #UA-152797941-1
 
