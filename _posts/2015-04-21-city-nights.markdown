@@ -5,6 +5,8 @@ author: "Nisa Seren Aksu"
 avatar: "img/authors/nisa.jpg"
 image: "img/b.jpg"
 date:   2015-04-21 12:12:12
+tags: [Android, Jetpack Components, Jetpack, Türkçe, Jetpack Nedir]
+comments: true
 ---
 
 ### Dolor sit amet?

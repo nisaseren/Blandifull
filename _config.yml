@@ -1,11 +1,14 @@
 # Site settings
-title: BLANDIFULL
-description: Battaniyeye, günlük yaşama dair .. 
-keywords: Modern, Blogging, Fun,Battaniye, Bebek, Yetişkin,TV
-author: Nisaseren Aksu
-baseurl: "Blandifull" # the subpath of your site, e.g. /blog/
-url: "https://nisaseren.github.io" # the base hostname & protocol for your site
-permalink: /:title:output_ext
+title:        BLANDIFULL
+description:  Battaniyeye, günlük yaşama dair .. 
+keywords:     Modern, Blogging, Fun,Battaniye, Bebek, Yetişkin,TV Battaniyesi, Bebek Battaniyesi
+author:       Nisaseren Aksu
+baseurl:      "Blandifull" # the subpath of your site, e.g. /blog/
+url:          "https://nisaseren.github.io" # the base hostname & protocol for your site
+permalink:    /:title/
+
+# Comments
+disqus_shortname:   eyyupalkis
 
 
 # Google Analytics
