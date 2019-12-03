@@ -43,6 +43,9 @@ layout: compress
                     <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
             -->
         </nav>
+        {% if page.comments != false %}
+        {% include disqus_comments.html %}
+        {% endif %}
     </header>
     <div class="content">
         <!-- trianglify pattern container -->
@@ -83,6 +86,10 @@ layout: compress
             {% endfor %}
             <!-- /cards -->
         </div>
+        {% if page.comments != false %}
+        {% include disqus_comments.html %}
+        {% endif %}
+
     </div>
     <!-- /container -->
 </div>
