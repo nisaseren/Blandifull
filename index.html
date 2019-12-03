@@ -27,9 +27,6 @@ layout: compress
     {% if site.google_analytics and jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
-    
-    {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section>
-        <!-- /#disqus_thread -->{% endif %}
 
 </head>
 <body class="body">
@@ -88,7 +85,6 @@ layout: compress
 
     </div>
     <!-- /container -->
-    {% include disqus_comments.html %}
 </div>
 <!-- JS -->
 {% include scripts.html %}
